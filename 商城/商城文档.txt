@@ -1,0 +1,13 @@
+﻿总后台：http://newshop.leshufang.cn/admin
+账号：admin
+密码：123456
+商铺PC后台：http://newshop.leshufang.cn/shop/
+账号：test123
+密码：test123
+商铺手机后台：http://newshop.leshufang.cn/business
+账号：test123
+密码：test123
+商城用户端：http://newshop.leshufang.cn/mobile/
+账号：16639925015
+密码：123456a
+平台客服：http://newshop.leshufang.cn/kefu/login
