@@ -1,0 +1,166 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/tabbar/home",
+		"style": {
+			"navigationBarTitleText": "首页",
+			"navigationBarBackgroundColor": "#F2F2F2",
+			"navigationBarTextStyle": "black",
+			"enablePullDownRefresh": true,
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/tabbar/user",
+		"style": {
+			"navigationBarTitleText": "个人中心",
+			"navigationBarBackgroundColor": "#F2F2F2",
+			"navigationBarTextStyle": "black",
+			// "enablePullDownRefresh": true,
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/property/leDou",
+		"style": {
+			"navigationBarTitleText": "乐豆明细",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+			// "enablePullDownRefresh": true,
+			// "navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/property/directPush",
+		"style": {
+			"navigationBarTitleText": "直推收益明细",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+			// "enablePullDownRefresh": true,
+			// "navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/property/teamList",
+		"style": {
+			"navigationBarTitleText": "团队收益明细",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+			// "enablePullDownRefresh": true,
+			// "navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/property/species",
+		"style": {
+			"navigationBarTitleText": "金币明细",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+			// "enablePullDownRefresh": true,
+			// "navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/property/cumulativeGain",
+		"style": {
+			"navigationBarTitleText": "个人收益",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+			// "enablePullDownRefresh": true,
+			// "navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/property/guizhe",
+		"style": {
+			"navigationBarTitleText": "竞拍规则",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+			// "enablePullDownRefresh": true,
+			// "navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/order/reservation",
+		"style": {
+			"navigationBarTitleText": "预约记录",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+			// "enablePullDownRefresh": true,
+			// "navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/order/daifuk",
+		"style": {
+			"navigationBarTitleText": "未付款记录",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+			// "enablePullDownRefresh": true,
+			// "navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/order/orderIndex",
+		"style": {
+			"navigationBarTitleText": "订单中心",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			// "enablePullDownRefresh": true,
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/property/myteam",
+		"style": {
+			"navigationBarTitleText": "我的团队",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			// "enablePullDownRefresh": true,
+			"navigationStyle": "custom"
+		}
+	}
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// }
+	],
+	"tabBar": {
+		"color":"#999999",
+		"selectedColor": "#333333",
+		// "iconWidth": "25px",
+		"backgroundColor":"#ffffff",
+		"borderStyle":"white",
+		"spacing":"5px",
+		// "fontSize": "12px",
+		"list": [
+			{
+				"pagePath": "pages/tabbar/home",
+				"text": "首页",
+				"iconPath": "static/tabbar/jingpai.png",
+				"selectedIconPath": "static/tabbar/jingpais.png"
+			},
+			{
+				"pagePath": "pages/property/myteam",
+				"text": "我的团队",
+				"iconPath": "static/tabbar/tuandui.png",
+				"selectedIconPath": "static/tabbar/tuanduis.png"
+			},
+
+		{
+			"pagePath": "pages/tabbar/user",
+			"text": "个人中心",
+			"iconPath": "static/tabbar/user.png",
+			"selectedIconPath": "static/tabbar/users.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F3F3F3",
+		"backgroundColor": "#F3F3F3"
+	},
+	"uniIdRouter": {}
+}
